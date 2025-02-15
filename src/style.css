@@ -1,0 +1,46 @@
+.building {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 620px;
+}
+
+.floor {
+  display: flex;
+}
+
+.floor-no {
+  margin-right: 2%;
+  gap: 16px;
+  width: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.elevator-space {
+  border: 1px solid rgb(201, 201, 201);
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+}
+
+.call-btn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  padding: 12px 22px;
+  border-radius: 5px;
+  margin: 4px 0px;
+  margin-left: 8px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(2, 142, 2);
+  text-transform: uppercase;
+}
+
+.elevator {
+  height: 40px;
+}
